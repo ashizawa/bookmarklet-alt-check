@@ -1,0 +1,4 @@
+bookmarklet-alt-check
+=====================
+
+bookmarklet
