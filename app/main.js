@@ -1,4 +1,12 @@
-(function() {
+/*jshint strict:false, browser:true */
+(function bookmarklet() {
+  var styleNode = document.createElement('style'),
+    content = document.createTextNode('body { background: cornflowerblue; }');
+
+  styleNode.appendChild(content);
+  document.head.appendChild(styleNode);
+
+  // add
   var myName = 'bookmarklet-alt-check',
     version = '0.0.1',
     url = 'https://github.com/ashizawa/bookmarklet-alt-check';
@@ -18,4 +26,5 @@
   };
 
   window.scrollTo(0, 0);
-})();
+
+}());
